@@ -15,7 +15,7 @@ body {
 
 .hero {
     height: 100vh;
-    background-image: url('../images/1.jpg');
+    background-image: url('../static/css/imgaes/bg.jpg');
     background-position: center; 
     background-size: cover;
     position: relative;
@@ -219,21 +219,21 @@ body {
 .stationery {
     color: #fff;
 
-    background-image: url('../images/portfolio-1.jpg'); background-size: cover; }
+    background-image: url('.css/images/portfolio-1.jpg'); background-size: cover; }
 .stationery p{
     color: #fff;
 }
 
-.ice-cream {  background-image: url('../images/joanna-kosinska-szFUQoyvrxM-unsplash.jpg'); background-size: cover; }
+.ice-cream {  background-image: url('.css/images/joanna-kosinska-szFUQoyvrxM-unsplash.jpg'); background-size: cover; }
 .ice-cream p{
     color: #fff;
 }
 
-.strawberries { background-image: url('../images/joanna-kosinska-BteMcldTQVo-unsplash.jpg'); background-size: cover; }
+.strawberries { background-image: url('.css/images/strawberries.jpg'); background-size: cover; }
 .strawberries p{
     color: #fff;
 }
-.workspace { background-image: url('../images/joanna-kosinska-bF2vsubyHcQ-unsplash\ copy.jpg'); background-size: cover; }
+.workspace { background-image: url('.css/images/workspace\ copy.jpg'); background-size: cover; }
 .workspace p{
     color: #fff;
 }
@@ -325,7 +325,7 @@ body {
 }
 
 .map{
-    background-image: url('../images/dzikwa\ map.png') ;
+    background-image: url('../images/dzikwa map.png') ;
     background-size: cover;
     background-position: center;
     height: 100vh;
