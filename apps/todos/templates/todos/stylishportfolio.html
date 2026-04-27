@@ -1,0 +1,145 @@
+ {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stylish portfolio</title>
+   
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+
+    <section class="hero">
+        
+        <div class="menu">
+            <img src="{% static 'images/menu.png'%}" alt="Menu">
+        </div>
+        <div class="hero-content">
+            <h1>Stylish Portfolio</h1>
+            <p>A Free Bootstrap theme by Start Bootstrap</p>
+            <a href="#" class="btn">Find Out More</a>
+            
+            
+        </div>
+
+    </section>
+    <section class="about">
+
+    <div class="about-content">
+        
+        <h3>Stylish Portfolio is the perfect theme for your next project!</h3>
+        
+        <p>
+            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at 
+            <a href="#">Unsplash</a>!
+        </p>
+
+        <button href="#" class="about-btn">What we offer</button>
+       
+    </div>
+
+<section class="services">
+    <h2 style="color: yellow;">SERVICES</h2>
+    <h1>What We offer</h1>
+
+    <div class="services-container">
+    
+    <div class="service-box">
+      <div class="icon"><img src="{% static 'images/iphone.png'%}" alt=""></div>
+      <h3 style="color: #fff;">Responsive</h3>
+      <p style="color: #fff;">Looks great on any screen size</p>
+    </div>
+
+    <div class="service-box">
+      <div class="icon"><img src="{% static 'images/facebook.png'%}" alt=""></div>
+      <h3 style="color: #fff;">Redesigned</h3>
+      <p style="color: #fff;">Freshly designed for bootstrap 4.</p>
+    </div>
+
+    <div class="service-box">
+      <div class="icon"><img src="{% static 'images/like.png'%}" alt=""></div>
+      <h3 style="color: #fff;">Favorited</h3>
+      <p style="color: #fff;">Millions of users love it!</p>
+    </div>
+
+    <div class="service-box">
+      <div class="icon"><img src="{% static 'images/mustache.png'%}" alt=""></div>
+      <h3 style="color: #fff;">Questioned</h3>
+      <p style="color: #fff;">I mustache you a question...</p>
+    </div>
+
+  </div>
+</section>
+        
+</section>
+<section class="cta">
+    <div class="cta-content">
+        <h1>Welcome to your<br>next website</h1>
+        <a href="#" class="cta-btn" style="color: #fff;">Download now</a>
+    </div>
+    
+</section>
+<section class="portfolio">
+    <header class="portfolio-header">
+        <p >PORTFOLIO</p>
+        <h1>Recent Projects</h1>
+    </header>
+
+    <div class="projects-grid">
+        <div class="project-card stationery">
+            <div class="content">
+                <h2>STATIONERY</h2>
+                <p>A yellow pencil with envelopes on a clean, blue backdrop!</p>
+            </div>
+        </div>
+
+        <div class="project-card ice-cream">
+            <div class="content">
+                <h2>ICE CREAM</h2>
+                <p>A dark blue background with a colored pencil, a clip and a tiny ice cream</p>
+            </div>
+        </div>
+
+        <div class="project-card strawberries">
+            <div class="content">
+                <h2>STRAWBERRIES</h2>
+                <p>Strawberries are such a tasty snack, especially with a little sugar on top</p>
+            </div>
+        </div>
+
+        <div class="project-card workspace">
+            <div class="content">
+                <h2>WORKSPACE</h2>
+                <p>A yellow workspace with some scissors, pencils and other objects.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-container">
+        <h2>The buttons below are impossible to resist...</h2>
+        <div class="button-group">
+            <a href="#" class="btn btn-light">Click Me!</a>
+            <a href="#" class="btn btn-dark">Look at Me!</a>
+        </div>
+    </div>
+</section>
+<section class="map"></section>
+<footer class="main-footer">
+    <div class="social-icons">
+        <a href="#" class="icon-link">
+            <img src="{% static 'images/facebook.png'%}" alt="Facebook">
+        </a>
+        <a href="#" class="icon-link">
+            <img src="{% static 'images/twitter (2).png'%}" alt="Twitter">
+        </a>
+        <a href="#" class="icon-link">
+            <img src="{% static 'images/merge.png'%}" alt="GitHub">
+        </a>
+    </div>
+    <p class="copyright">copyright(c) @ Joseph Dumbatsuro</p>
+</footer>
+</body>
+</html>

@@ -9,4 +9,7 @@ def hello_Joseph_view(request):
     return HttpResponse("Hello, Joseph!")
 
 def html_view(request):
-    return render(request, 'todos/index.html') k
+    return render(request, 'todos/index.html') 
+
+def stylish_portfolio(request):
+    return render(request, 'todos/stylishportfolio.html')
